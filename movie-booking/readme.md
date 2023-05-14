@@ -1,6 +1,6 @@
 # movie-booking-app
 
-This folder has sample movie booking application which demonstrates simple distributed locking mechanism usinbg FastAPI and Redis
+This folder has sample movie booking application which demonstrates simple distributed locking mechanism using FastAPI and Redis
 
 ## Running services
 
