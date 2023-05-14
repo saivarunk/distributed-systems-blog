@@ -61,7 +61,7 @@ async def book_seat(seat_id: str):
 
 
 @app.post("/api/v1/movies/book/{seat_id}/action/{action}")
-async def process_booking(seat_id: str, action: str):
+async def confirm_booking(seat_id: str, action: str):
     if action == "success":
         movie_data = redis_client.hgetall(f"movie:{movie.id}")
 
